@@ -1,0 +1,62 @@
+
+body {
+    color: black;
+    background-image: url('gambar/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contact td {
+    padding: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+}
+
+.summary {
+    text-align: justify;
+    align-items: center;
+    gap: 10px;
+}
+
+.deskripsi{
+    flex: 1;
+    text-align: justify;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 45%;
+    object-fit: cover;
+    
+}
+
+.framecontent {
+    flex: 1;
+    min-width: 0;
+    border: 3.5px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
